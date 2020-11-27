@@ -7,7 +7,6 @@ function isRegex($str0) {
 }
 function matchall($match,$name) { return true; }
 
-<<<<<<< HEAD
 /**
  * Renders a link.
  */
@@ -356,7 +355,6 @@ if ($_GET['noplots']) {
 <h2><a name="files">Other files</a></h2>
 <ul>
 <?
-<<<<<<< HEAD
 foreach ($allfiles as $filename) {
     if ( $_GET['noplots'] || (!in_array($filename, $displayed)) ) {
         /// if (isset($_GET['match']) && !fnmatch('*'.$_GET['match'].'*', $filename)) continue;
