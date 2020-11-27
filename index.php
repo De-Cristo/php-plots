@@ -345,7 +345,7 @@ if ($_GET['noplots']) {
                                                          $folder = str_replace($_SERVER['DOCUMENT_ROOT'],"",
 		                                         str_replace("index.php","",$pruned_uri)
 	                                                 );
-					                 array_push($others, "<a href=https://spigazzi.web.cern.ch/spigazzi/jsroot/index.htm?file=$folder$other_filename>[" . $ex . "]</a>");
+					                 array_push($others, "<a href=https://sewuchte.web.cern.ch/jsroot/index.htm?file=$folder$other_filename>[" . $ex . "]</a>");
 					                 array_push($displayed, $other_filename);
                                                          break;
                                                          default :
@@ -381,7 +381,7 @@ foreach ($allfiles as $filename) {
             //~ print "<li><a href=\"$filename\">$filename</a></li>";
 		// print "<li>[DIR] <a href=\"$filename\">$filename</a></li>";
    } else {
-   print "<li><a href=\"https://spigazzi.web.cern.ch/spigazzi/jsroot/index.htm?file=$folder/$filename\">$filename</a></li>";
+   print "<li><a href=\"https://sewuchte.web.cern.ch/jsroot/index.htm?file=$folder/$filename\">$filename</a></li>";
    # print "<li><a href=\"$filename\">$filename</a></li>";
         }
     }
